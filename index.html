@@ -20,14 +20,14 @@
           <textarea
             readonly
             id="password"
-            placeholder="Your Secure Password"
+            id= "passwordDisplay" placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
-
-      <div class="character-amount-container">
-        <label for="characterAmountNumber">Number Of Characters</label>
+            <form id="passwordGenerator" class="form"></form>
+          <label for="characterAmountNumber">Number Of Characters</label>
+          <div class="character-amount-container">
         <input type="range" min="8" max="128" value="10" id="characterAmountRange">
         <input class="number-input" type="number" min="8" max="128" value="10" id="characterAmountNumber">
       </div>
